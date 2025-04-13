@@ -1,4 +1,4 @@
-package models;
+package models.Enums;
 
 public enum PaymentMode {
     CREDIT_CARD,

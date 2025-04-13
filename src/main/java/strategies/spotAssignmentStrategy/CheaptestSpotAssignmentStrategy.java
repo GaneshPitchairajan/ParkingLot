@@ -1,13 +1,9 @@
-package strategies;
+package strategies.spotAssignmentStrategy;
 
-public class CheaptestSpotAssignmentStrategy {
-}
-package parkinglot.strategies.spotAssignmentStrategy;
 
-import parkinglot.models.Gate;
-import parkinglot.models.ParkingSpot;
-import parkinglot.models.enums.VehicleType;
-
+import models.Gate;
+import models.ParkingSpot;
+import models.Enums.VehicleType;
 public class CheaptestSpotAssignmentStrategy implements SpotAssignmentStrategy{
     @Override
     public ParkingSpot assignSpot(VehicleType vehicleType, Gate gate) {

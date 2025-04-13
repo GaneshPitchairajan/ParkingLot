@@ -1,4 +1,6 @@
-package models.enums;
+package models.Enums;
 
-public class BillStatus {
+public enum BillStatus {
+    PENDING,
+    PAID
 }

@@ -7,35 +7,94 @@
     <list default="true" id="2db6651c-54ba-40fa-8cf9-4ba9dbc9173e" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/TicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dtos/IssueTicketRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtos/IssueTicketRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dtos/IssueTicketResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtos/IssueTicketResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dtos/ResponseStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtos/ResponseStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/GateNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/GateNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factories/SpotAssignmentStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factories/SpotAssignmentStrategyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/BaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/BillStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/BillStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/FeeCalculationStrategyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/FeeCalculationStrategyType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/GateStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/GateStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/GateType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/GateType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/ParkingFloorStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/ParkingFloorStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/ParkingSpotStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/ParkingSpotStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/PaymentMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/PaymentMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/PaymentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/PaymentStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/SpotAssignmentStrategyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/SpotAssignmentStrategyType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/VehicleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Gate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/ParkingFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/ParkingFloor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/ParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositories/GateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositories/GateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositories/ParkingLotRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositories/ParkingLotRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositories/TicketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositories/TicketRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repositories/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositories/VehicleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/TicketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategies/spotAssignmentStrategy/CheaptestSpotAssignmentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategies/spotAssignmentStrategy/CheaptestSpotAssignmentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategies/spotAssignmentStrategy/RandomSpotAssignmentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategies/spotAssignmentStrategy/RandomSpotAssignmentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategies/spotAssignmentStrategy/SpotAssignmentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategies/spotAssignmentStrategy/SpotAssignmentStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "GaneshPitchairajan"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GaneshPitchairajan/ParkingLot.git",
+    "accountId": "a930660a-1924-496a-ba31-0b343f73dd61"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2vIwkMqFN9isK3CtM7NEB62sCVN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/CODE/Scalar/LLD/ParkingLot/Parking_Lot/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Client.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/CODE/Scalar/LLD/ParkingLot/Parking_Lot/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,10 +109,15 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controllers/TicketController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
