@@ -1,9 +1,12 @@
 package repositories;
 
+import models.Enums.FeeCalculationStrategyType;
 import models.Enums.VehicleType;
 import models.Gate;
 import models.ParkingFloor;
 import models.ParkingLot;
+import java.time.DayOfWeek;
+import java.time.LocalDate;
 
 import java.util.*;
 
@@ -33,7 +36,18 @@ public class ParkingLotRepository {
         lot1.setCreatedAt(new Date());
         lot1.setUpdatedAt(new Date());
         lot1.setId(1L);
-        lot1.getFeeCalculationStrategyType(Fee);
+        // Get current date
+        LocalDate today = LocalDate.now();
+        // Get day of week
+        DayOfWeek dayOfWeek = today.getDayOfWeek();
+        // Get day number (Monday = 1, Sunday = 7)
+        int dayNumber = dayOfWeek.getValue();
+        if (dayNumber>=1 || dayNumber <=5){
+            lot1.setFeeCalculationStrategyType(FeeCalculationStrategyType.WEEKDAY);
+        }
+        else {
+            lot1.setFeeCalculationStrategyType(FeeCalculationStrategyType.WEEKEND);
+        }
         parkingLotMap.put(1L,lot1);
     }
 

@@ -10,41 +10,9 @@
       <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/TicketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dtos/IssueTicketRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtos/IssueTicketRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dtos/IssueTicketResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtos/IssueTicketResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dtos/ResponseStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtos/ResponseStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/GateNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/GateNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factories/SpotAssignmentStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factories/SpotAssignmentStrategyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/BaseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/BillStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/BillStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/FeeCalculationStrategyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/FeeCalculationStrategyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/GateStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/GateStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/GateType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/GateType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/ParkingFloorStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/ParkingFloorStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/ParkingSpotStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/ParkingSpotStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/PaymentMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/PaymentMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/PaymentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/PaymentStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/SpotAssignmentStrategyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/SpotAssignmentStrategyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enums/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enums/VehicleType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Gate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Operator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/ParkingFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/ParkingFloor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/ParkingLot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/ParkingSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repositories/GateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositories/GateRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repositories/ParkingLotRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositories/ParkingLotRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repositories/TicketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositories/TicketRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repositories/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositories/VehicleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/TicketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategies/spotAssignmentStrategy/CheaptestSpotAssignmentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategies/spotAssignmentStrategy/CheaptestSpotAssignmentStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategies/spotAssignmentStrategy/RandomSpotAssignmentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategies/spotAssignmentStrategy/RandomSpotAssignmentStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategies/spotAssignmentStrategy/SpotAssignmentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategies/spotAssignmentStrategy/SpotAssignmentStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,18 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GaneshPitchairajan"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GaneshPitchairajan&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GaneshPitchairajan/ParkingLot.git",
-    "accountId": "a930660a-1924-496a-ba31-0b343f73dd61"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GaneshPitchairajan/ParkingLot.git&quot;,
+    &quot;accountId&quot;: &quot;a930660a-1924-496a-ba31-0b343f73dd61&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>

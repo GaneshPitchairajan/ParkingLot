@@ -8,6 +8,13 @@ public class ParkingFloor extends BaseModel {
     private ParkingFloorStatus parkingFloorStatus;
     private int floorNumber;
 
+    public ParkingFloor(ParkingFloorStatus floorStatus,int floornumber){
+        this.floorNumber=floornumber;
+        this.parkingFloorStatus=floorStatus;
+        for(int i=0;i<20;i++) parkingSpots.add(new ParkingSpot(i+1));
+
+    }
+
     public List<ParkingSpot> getParkingSpots() {
         return parkingSpots;
     }
