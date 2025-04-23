@@ -21,12 +21,12 @@ public class ParkingLotRepository {
     public ParkingLotRepository(){
         parkingLotMap=new HashMap<>();
         // need to add a parking lot in this map
-        ParkingLot lot1=new ParkingLot();
+        /*ParkingLot lot1=new ParkingLot();
         lot1.setAddress("X street, Y city");
         List<Gate> gates=new ArrayList<>();
         lot1.setGates(gates);
         List<ParkingFloor> floors=new ArrayList<ParkingFloor>();
-        floors.add(new ParkingFloor());
+        //floors.add(new ParkingFloor());
         lot1.setParkingFloors(floors);
         List<VehicleType> supportedVehicle=new ArrayList<>();
         supportedVehicle.add(VehicleType.CYCLE);
@@ -48,7 +48,7 @@ public class ParkingLotRepository {
         else {
             lot1.setFeeCalculationStrategyType(FeeCalculationStrategyType.WEEKEND);
         }
-        parkingLotMap.put(1L,lot1);
+        parkingLotMap.put(1L,lot1);*/
     }
 
     public Optional<ParkingLot> findParkingLotByGateId(Long gateId) {

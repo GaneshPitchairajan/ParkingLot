@@ -18,27 +18,12 @@ public class GateRepository {
         gateMap = new HashMap<>();
         id = 0L;
 
-        Gate gate1 =new Gate() ;
-        gate1.setGateNumber(1);
-        gate1.setGateType(GateType.ENTRY);
-        gate1.setGateStatus(GateStatus.OPENED);
-        gate1.setOperator(new Operator());
-        gate1.setId(1L);
-        this.save(gate1);
-
-        Gate gate2 =new Gate() ;
-        gate1.setGateNumber(2);
-        gate1.setGateType(GateType.EXIT);
-        gate1.setGateStatus(GateStatus.OPENED);
-        gate1.setOperator(new Operator());
-        gate1.setId(2L);
-        this.save(gate1);
 
     }
 
     public Gate save(Gate gate) {
         // Update + insert => Upsert
-        if(gate.getId() == 0){
+        if(gate.getId() == 0L){
             // insert
             id = id + 1;
             gate.setId(id);

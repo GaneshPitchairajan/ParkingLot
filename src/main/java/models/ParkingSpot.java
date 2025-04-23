@@ -7,6 +7,7 @@ import models.Enums.VehicleType;
 import java.util.List;
 
 public class ParkingSpot extends BaseModel{
+
     private int parkingSpotNumber;
     private ParkingFloorStatus parkingSpotStatus;
     private List<VehicleType> supportedVehicleTypes;
@@ -18,7 +19,6 @@ public class ParkingSpot extends BaseModel{
         supportedVehicleTypes.add(VehicleType.SMALL);
         supportedVehicleTypes.add(VehicleType.MEDIUM);
     }
-
     public int getParkingSpotNumber() {
         return parkingSpotNumber;
     }
@@ -27,11 +27,11 @@ public class ParkingSpot extends BaseModel{
         this.parkingSpotNumber = parkingSpotNumber;
     }
 
-    public ParkingSpotStatus getParkingSpotStatus() {
+    public ParkingFloorStatus getParkingSpotStatus() {
         return parkingSpotStatus;
     }
 
-    public void setParkingSpotStatus(ParkingSpotStatus parkingSpotStatus) {
+    public void setParkingSpotStatus(ParkingFloorStatus parkingSpotStatus) {
         this.parkingSpotStatus = parkingSpotStatus;
     }
 
@@ -42,4 +42,6 @@ public class ParkingSpot extends BaseModel{
     public void setSupportedVehicleTypes(List<VehicleType> supportedVehicleTypes) {
         this.supportedVehicleTypes = supportedVehicleTypes;
     }
+
+
 }
